@@ -35,7 +35,7 @@
 - 만약 주차에 해당하는 문제 풀이가 미완료 시, 부끄러운 릴스 올리기!!! + 다음 주차까지 문제 ++ 
 - 간절한 마음 초심잃지 말고! 알고리즘 정복해갑시다!
 
-## PR 규칙 및 Commit Message 규칙
+## PR 규칙 & Commit Message 규칙 & 브랜치
 
 #### Pull Request
 
@@ -54,6 +54,9 @@
   - [CFS] - 코드포스
   - [SEA] - 삼성SW Expert Academy
   - [ETC] - 그외
+ 
+#### 브랜치명
+각자 닉네임으로 생성해주세요~!
 
 ## 파일 및 폴더 구조
 
@@ -71,14 +74,14 @@
 | -------- | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------- |
 | 1주차    | greedy              | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) |                                                              | `진행 완료`   |
 | 1주차    | brute_force         | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) |                                                              | `진행 완료`   |
-| 1주차   | stack_queue         | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) |                                                              | `진행 완료`   |
+| 2주차   | stack_queue         | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) |                                                              | `진행 완료`   |
 | 2주차    | dfs_bfs             | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | `진행 완료`   |
 | 2주차    | hash                | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | `진행 완료`   |
 | 2주차    | sort                | [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | `진행 완료`   |
-| 2주차    | binary_search       | [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) | [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) |                                                              | `진행 완료`   |
+| 3주차    | binary_search       | [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) | [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) |                                                              | `진행 완료`   |
 | 3주차    | dynamic_programming | [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) | [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | `진행 완료`   |
-| 3주차    | heap                | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | `진행 완료`   |
-| 3주차   | graph               | [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [방의 개수](https://programmers.co.kr/learn/courses/30/lessons/49190) | [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | `진행 완료`   |
+| 4주차    | heap                | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | `진행 완료`   |
+| 4주차   | graph               | [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [방의 개수](https://programmers.co.kr/learn/courses/30/lessons/49190) | [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | `진행 완료`   |
 
 #### 2차 :  KAKAO BLIND RECRUITMENT (프로그래머스)
 
