@@ -1,4 +1,4 @@
-class Solution {
+class TargetNumber{
     int answer = 0;
     public int solution(int[] numbers, int target) {//배열을 가지고 dfs를?
         dfs(0,numbers,target,0);
