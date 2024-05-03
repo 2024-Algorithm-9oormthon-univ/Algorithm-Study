@@ -10,8 +10,8 @@ function solution(clothes) {
 		}
 	}
 
-	for (const key in clothesMap) {
-		answer *= clothesMap[key] + 1;
+	for (const key in map) {
+		answer *= map[key] + 1;
 	}
 	return answer - 1;
 }
