@@ -1,7 +1,8 @@
 function solution(n, edge) {
+	/**
+	 * 1. 인접 리스트 생성
+	 */
 	let adjList = new Map();
-
-	// 인접리스트에 추가(양방향)
 	for (let e of edge) {
 		if (!adjList.has(e[0])) {
 			adjList.set(e[0], [e[1]]);
@@ -16,11 +17,13 @@ function solution(n, edge) {
 		}
 	}
 
-	// 다익스트라로 최단거리 찾기
+	/**
+	 * 2. 다익스트라 알고리즘을 사용하여 최단 거리 찾기
+	 */
 	function dijkstra(n, adjList) {
-		const inf = 200000;
+		const max = 200000;
 		// 0번부터 하면 헷갈려서 +1씩 (1번 노드부터 시작)
-		let distance = Array(n + 1).fill(inf);
+		let distance = Array(n + 1).fill(max);
 		let visited = Array(n + 1).fill(false);
 
 		// 0번은 안쓰고 1번은 자신이므로 0으로
@@ -29,7 +32,7 @@ function solution(n, edge) {
 
 		while (true) {
 			// 방문하지 않은 노드 중에서 최소 거리를 가진 노드를 선택
-			let minDistance = inf;
+			let minDistance = max;
 			let minNode = -1;
 
 			for (let node = 1; node <= n; node++) {
@@ -56,6 +59,9 @@ function solution(n, edge) {
 		return distance;
 	}
 
+	/**
+	 * 3. 최단 거리 결과 처리
+	 */
 	const distances = dijkstra(n, adjList);
 	const maxValue = Math.max(...distances);
 	const maxCount = distances.filter((value) => value === maxValue).length;
