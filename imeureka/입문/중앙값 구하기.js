@@ -7,9 +7,14 @@
  *    [1,200,3,40000,500].sort() => [1,200,3,40000,500] 대박~
  * 5. (a,b)=>a-b라는 comparator가 필요
  */
+function compareNumbers(a, b) {
+	return a - b;
+}
+
 function solution(array) {
 	//array.sort();
-  array.sort((a, b) => a - b);
+	//array.sort((a, b) => a - b);
+	array.sort(compareNumbers);
 	let answer = Math.floor(array.length / 2);
 	return array[answer];
 }
