@@ -1,13 +1,27 @@
-function solution(num_list) {
-	const obj = { even: 0, odd: 0 };
+/**
+ * 짝수 홀수 개수 구하는 법
+ * [1, 2, 3, 4, 5]
+ * 반복문을 통해 arr[i]가 짝수인지
+ * 짝수면 i ++
+ * 홀수면 j ++
+ *
+ *
+ */
 
-	for (let i = 0; i < num_list.length; i++) {
-		if (num_list[i] % 2 === 1) {
-			obj["odd"] += 1;
+function solution(num_list) {
+	let oddCount = 0; // 홀수 개수
+	let evenCount = 0; // 짝수 개수
+
+	for (let num = 0; num < num_list.length; num++) {
+		if (num_list[num] % 2 === 0) {
+			evenCount++;
+			console.log(num_list[num], "짝수");
 		} else {
-			obj["even"] += 1;
+			oddCount++;
+			console.log(num_list[num], "홀수");
 		}
 	}
 
-	return [obj["even"], obj["odd"]];
+	let answer = [evenCount, oddCount];
+	return answer;
 }
