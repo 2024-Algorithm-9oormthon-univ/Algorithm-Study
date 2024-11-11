@@ -19,3 +19,10 @@ function solution(num1, num2) {
 	let answer = ~~((num1 / num2) * 1000);
 	return answer;
 }
+
+function solution(n, k) {
+	let free_drink = ~~(n / 10);
+	let sale = free_drink * 2000;
+	let total = n * 12000 + k * 2000 - sale;
+	return total;
+}
