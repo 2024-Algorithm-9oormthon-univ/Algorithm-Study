@@ -13,3 +13,9 @@ function solution(my_string, letter) {
 
 	return ans.join("");
 }
+
+function solution(my_string, letter) {
+	let new_string = my_string.replaceAll(letter, "");
+	console.log(new_string);
+	return new_string;
+}
